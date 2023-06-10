@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    background-color: #afd2dd;
+    width:1000px;
+    max-width: 100%;
+    margin:auto;
+    padding:50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%; 
+    row-gap: 30px;
+}
+
+td {
+    border: 1px solid lightgrey;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+input {
+    padding: 0;
+    text-align: center;
+    border: 0;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+input:hover {
+    background: #ffffff;
+}
+
+#submitbtn {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    margin-left: 750px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 850px;
+    margin-top: 15px;
+  }
+  
+  
+  #restartbtn:focus {
+    background-color: #F082AC;
+  }
+
+
+
+#restartbtn {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 20px;
+margin-top: 15px;
+margin-bottom: 25px;
+}
+
+#restartbtn:hover,
+#restartbtn:focus {
+  background-color: #F082AC;
+}
+
+h1{
+    margin-top: 50px;
+    position: relative;
+    
+    left: 40%;
+    
+}
+.center {
+    text-align: center;
+    
+  }
